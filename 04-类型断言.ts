@@ -19,7 +19,7 @@ interface Person2 {
   name: string;
   age: number
 }
-let person = <Person2>{}  //这里或者或者写成这样：let person = {} as Person
+let person = <Person2>{}  //这里或者写成这样：let person = {} as Person2
 person.name = '张三'
 person.age = 18
 

@@ -38,7 +38,7 @@ function add(a: number, b: number): number {
   return a + b
 }
 add(1, 2)
-//2.写一个公用函数，使用时才调用
+//2.写一个公用函数，使用时才调用。必须要定义返回类型，返回值为void不需要return，返回指定类型值时，函数需要return
 function add1(a: number, b: number): void {
   
 }
